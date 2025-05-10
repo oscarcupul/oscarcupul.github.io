@@ -1,0 +1,119 @@
+<!DOCTYPE html>  
+<html lang="es">  
+<head>  
+    <meta charset="utf-8">  
+    <meta name="viewport" content="width=device-width">  
+    <meta name="description" content="Menu">  
+    <meta name="keywords" content="Menu">  
+    <meta name="author" content="Render2Web">  
+    <title>Graphel Desarrollo Web | Bienvenidos</title>  
+    <link rel="stylesheet" href="css/estilos.css">  
+    <style>  
+        body {  
+            display: flex; /* Usar flexbox para estructurar el contenido */  
+            margin: 0;  
+            font-family: Arial, sans-serif;  
+        }  
+        header {  
+            background-color: #333; /* Color de fondo del menú */  
+            color: white; /* Color del texto del menú */  
+            width: 200px; /* Ancho del menú */  
+            padding: 10px; /* Espaciado interno */  
+        }  
+        table {  
+            width: 100%;  
+            border-collapse: collapse; /* Hacer que las celdas compartan bordes */  
+        }  
+        th, td {  
+            padding: 10px;  
+            text-align: left;  
+            border: 1px solid #ddd; /* Borde para las celdas de la tabla */  
+        }  
+        th {  
+            background-color: #333; /* Fondo oscuro para las cabeceras de la tabla */  
+            color: white; /* Color de texto blanco para las cabeceras */  
+        }  
+        tr:nth-child(even) {  
+            background-color: #f2f2f2; /* Color de fondo gris claro para las filas pares */  
+        }  
+        tr:hover {  
+            background-color: #ddd; /* Fondo gris al pasar el ratón sobre una fila */  
+        }  
+        .contenedor {  
+            margin-left: 20px; /* Espacio a la izquierda del contenedor */  
+            padding: 20px; /* Espaciado interno del contenedor de contenido */  
+            flex-grow: 1; /* Ocupa el espacio restante */  
+            background-color: rgb(240, 230, 231); /* Color de fondo del contenido */  
+        }  
+        .tarea-titulo {  
+            font-weight: bold; /* Negrita para títulos */  
+            margin: 10px 0; /* Margen para separación */  
+            color: black; /* Color negro para los títulos */  
+        }  
+        nav ul {  
+            list-style-type: none; /* Sin puntos en la lista */  
+            padding: 0; /* Sin padding */  
+        }  
+        nav ul li {  
+            margin: 10px 0; /* Margen entre elementos */  
+        }  
+        nav ul li a {  
+            color: rgb(255, 255, 255); /* Color de los enlaces */  
+            text-decoration: none; /* Sin subrayado */  
+            display: block; /* Hacer que el enlace ocupe todo el ancho */  
+        }  
+        nav ul li a:hover {  
+            background-color: rgb(255, 208, 0); /* Color de fondo al pasar el ratón */  
+        }  
+    </style>  
+</head>  
+<body>  
+    <header>  
+        <div class="contenedor">  
+            <nav>  
+                <table>  
+                    <tr>  
+                        <th colspan="2" class="tarea-titulo">Menú</th>  
+                    </tr>  
+                    <tr>  
+                        <td><a href="Manual118.html" target="content-frame">Manual del 1 al 18</a></td>  
+                    </tr>  
+                    <tr>  
+                        <td><a href="actividades/index_Colores.html" target="content-frame">Act. PowerPoint</a></td>  
+                    </tr>  
+                    <tr>  
+                        <th colspan="2" class="tarea-titulo">Tarea 1</th>  
+                    </tr>  
+                    <tr>  
+                        <td><a href="Tarea1_1.1.1/1colores.html" target="content-frame">Colores</a></td>  
+                    </tr>  
+                    <tr>  
+                        <td><a href="Tarea1_1.1.1/1index.html" target="content-frame">Index</a></td>  
+                    </tr>  
+                    <tr>  
+                        <td><a href="Tarea1_1.1.1/1index1.html" target="content-frame">Index1</a></td>  
+                    </tr>  
+                    <tr>  
+                        <td><a href="Tarea1_1.1.1/1index2.html" target="content-frame">Index2</a></td>  
+                    </tr>  
+                    <tr>  
+                        <th colspan="2" class="tarea-titulo">Tarea 2</th>  
+                    </tr>  
+                    <tr>  
+                        <td><a href="TAREA2/index.html" target="content-frame">Index</a></td>  
+                    </tr>  
+                    <tr>  
+                        <td><a href="TAREA2/imagenes.html" target="content-frame">Imágenes</a></td>  
+                    </tr>  
+                    <tr>  
+                        <td><a href="TAREA2/divisiones.html" target="content-frame">Divisiones</a></td>  
+                    </tr>  
+                </table>  
+            </nav>  
+        </div>  
+    </header>  
+    <div class="contenedor">  
+        <iframe name="content-frame" style="width: 100%; height: 100vh; border: none;"></iframe>  
+    </div>  
+</body>  
+</html>

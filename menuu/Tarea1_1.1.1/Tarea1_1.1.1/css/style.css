@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(184, 63, 236);
+}
+
+h1 {
+    color: rgb(235, 96, 170);
+}
+
+p {
+    color: deepskyblue;
+    border: 2px solid rgb(70, 43, 226); 
+    padding: 30px;
+    margin: 15px;     
+}
